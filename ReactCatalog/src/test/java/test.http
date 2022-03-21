@@ -1,0 +1,22 @@
+GET http://localhost:8080/add-user?id=1&currency=RUB&name=user1&login=login1
+Accept: application/json
+
+###
+GET http://localhost:8080/add-user?id=2&currency=EUR&name=user2&login=login2
+Accept: application/json
+
+###
+GET http://localhost:8080/add-product?id=1&currency=USD&name=product1&price=1
+Accept: application/json
+
+###
+GET http://localhost:8080/add-product?id=2&currency=EUR&name=product2&price=2
+Accept: application/json
+
+###
+GET http://localhost:8080/get-products?id=1
+Accept: application/json
+
+###
+GET http://localhost:8080/get-products?id=2
+Accept: application/json
